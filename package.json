@@ -6,6 +6,9 @@
 		"MaximAL <almaximal@ya.ru> (https://github.com/maximal)"
 	],
 	"source": "src/index.html",
+	"engines": {
+		"node": ">=20.0.0"
+	},
 	"scripts": {
 		"build": "parcel build",
 		"watch": "parcel watch",
@@ -13,13 +16,14 @@
 		"start": "parcel"
 	},
 	"browserslist": [
-		"> 0.5%",
+		"defaults",
 		"not dead",
-		"ie 11"
+		"not ie 11",
+		"maintained node versions"
 	],
 	"devDependencies": {
-		"@parcel/transformer-sass": "^2.0",
-		"eslint": "^8.3",
-		"parcel": "^2.0"
+		"@parcel/transformer-sass": "^2.12.0",
+		"eslint": "^9.16.0",
+		"parcel": "^2.12.0"
 	}
 }

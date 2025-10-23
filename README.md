@@ -5,9 +5,9 @@ Forked from [@rjanjic/js-solitaire](https://github.com/rjanjic/js-solitaire) wit
 * extended configuration: card drawing count, pre-win state for debugging purposes, etc;
 * added the ability for translation/i18n.
 
-Developing server: `yarn && yarn start`
+Developing server: `pnpm install && pnpm start`
 
-Production build: `yarn build`
+Production build: `pnpm build`
 
 ![JavaScript Solitaire](https://raw.githubusercontent.com/uzi88/js-solitaire/master/screen-shot.png)
 
